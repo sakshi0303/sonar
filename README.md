@@ -1,0 +1,2 @@
+# sonar
+Sonar signals contain information about objects (submarines or new objects) detected underwater and sometimes sonar signals may contain noise data which contains information about ROCKS, Hard SAND, etc. By using a pairwise classifier, we can remove such noise data from sonar signals, and then using traditional machine learning classifiers such as SVM, Decision Tree, and Naïve Bayesian to train with clean data. 
